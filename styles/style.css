@@ -256,6 +256,165 @@ font-size: 1rem;
         gap: 55px;
     }
     /* Extra mile section */
+    /* BMI Calculator */
+    .BMI-Calculator{
+        margin: 0 auto;
+        margin-top: 55px;
+    }
+    .BMI-Calculator-content h1{
+        color: white;
+        text-align: center;
+        font-size: 3rem;
+        font-family: inter;
+    }
+    .BMI-Calculator-content p{
+        color: white;
+        text-align: center;
+        font-size: 15px;
+        font-family: inter;
+    }
+    /* BMI Calculator */
+    /* Table and form section */
+    .div1,.div2,.div3{
+        display: flex;
+        gap: 50px;
+    }
+.Table-and-form-section-content{
+    display: flex;
+    gap: 70px;
+    justify-content: center;
+    align-items: center;
+}
+.Table-and-form-section-table h3{
+    color: white;
+    font-size: 3rem;
+    font-family: inter;
+    text-align: center;
+}
+.Table-and-form-section-form-content h3{
+    color: white;
+    font-size: 3rem;
+    font-family: inter;
+    text-align: center;
+}
+.Table-and-form-section-form-content p{
+    color: white;
+    font-size: 1rem;
+    font-family: inter;
+    text-align: center;
+}
+.Table-and-form-section{
+    background: rgb(34,34,34);
+}
+.Table-and-form-section-table{
+   
+}
+.div1{
+width: 280px;
+height: 45px;
+background: rgba(255, 255, 255, 0.1);
+}
+    /* Table and form section */
+     /* Meet Our Team  */
+     .divv1{
+        display: flex;
+        gap: 25px;
+        justify-content: center;
+        
+     }
+     .divv1 img{
+        border-radius: 15px;
+        background: rgba(0,0,0,0.2);
+     }
+     .divv2 img{
+        border-radius: 15px;
+        background: rgba(0,0,0,0.2);
+     }
+     .divv2{
+        display: flex;
+        justify-content: center;
+        gap: 25px;
+        margin-top: 15px;
+     }
+     .image-container img{
+        width:25%;
+
+     }
+.meet-our-team{
+    margin: 0 auto;
+    margin-top: 55px;
+ background:  rgba(255, 255, 255, 0.1);
+}
+.meet-our-team-content h1{
+    color: white;
+    font-size: 3rem;
+    font-family: inter;
+    text-align: center;
+}
+.meet-our-team-content p{
+    color: white;
+    font-size: 1rem;
+    font-family: inter;
+    text-align: center;
+}
+     /* Meet Our Team  */
+     /* footer */
+     .footer{
+        margin-top: 55px;
+        margin: 0 auto;
+     }
+     .fitness h4{
+        color: white;
+        font-size: 2rem;
+        font-family: inter;
+        text-align: center;
+     }
+     .fitness p{
+        color: white;
+    font-size: 1rem;
+    font-family: inter;
+    text-align: center;
+     }
+     .getstarted h2{
+        color: white;
+        font-size: 1rem;
+        font-family: inter;
+        text-align: center;
+     }
+      .getstarted1 h2{
+        color: white;
+        font-size: 1rem;
+        font-family: inter;
+        text-align: center;
+     }
+     .getstarted p{
+        color: white;
+        font-size: 1rem;
+        font-family: inter;
+        text-align: center;
+     }
+    
+     .getstarted1 p{
+        color: white;
+        font-size: 1rem;
+        font-family: inter;
+        text-align: center;
+     }
+     .end{
+        color: white;
+        font-size: 1rem;
+        font-family: inter;
+        text-align: center;
+     }
+     .double-div{
+        display: flex;
+    
+     }
+     .footer-content{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+     }
 
     /* Responsive media query for mobile */
 @media screen and (max-width:570px) {
@@ -295,6 +454,6 @@ font-size: 1rem;
         flex-direction: column;
        }
        .Extra-mile-section-image{
-        width: 100%;
+        width: 100%;}
 }
       /* Responsive media query for mobile */
