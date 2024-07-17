@@ -223,6 +223,38 @@
 }
     /* circle card section end here */
     /* Extra mile section */
+    .Extra-mile-section{
+        width: 75%;
+        margin: 0 auto;
+        margin-top: 70px;
+        background: rgb(34,34,34);
+        border-radius: 20px;
+    }
+    .Extra-mile-section-text h3 {
+color: white;
+font-family: inter;
+font-size: 2rem;
+
+    }
+    .Extra-mile-section-text p{
+        color: white; 
+        font-family: inter;
+font-size: 1rem; 
+    }
+    .Extra-mile-section-image{
+        width: 35%;
+    }
+    .Extra-mile-section-image img{
+        width: 100%;
+        height: 300px;
+        border-radius: 20px;
+    }
+    .Extra-mile-section-content{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 55px;
+    }
     /* Extra mile section */
 
     /* Responsive media query for mobile */
@@ -259,6 +291,10 @@
        .card-section{
         margin-top: 75px;
        }
-    
+       .Extra-mile-section-content{
+        flex-direction: column;
+       }
+       .Extra-mile-section-image{
+        width: 100%;
 }
       /* Responsive media query for mobile */
