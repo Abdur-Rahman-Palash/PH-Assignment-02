@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Cherish&family=Dancing+Script:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
 .inter-fonts {
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
@@ -356,6 +357,7 @@ th, td {
    height: 30px;
    border-radius: 8px;
    text-align: center;
+   font-size: 1.5rem;
 }
 
 
@@ -456,8 +458,42 @@ th, td {
         font-family: inter;
         text-align: center;
      }
-     
-
+     /* Book now */
+     .book-now{
+        margin: 0 auto;
+        margin-top: 50px;
+        background: #81ecec;
+        width: 100%;
+        height: 250px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 180px;
+     }
+     .book-now-text h1{
+font-size: 3rem;
+color: white;
+font-family: "Poiret One", sans-serif;
+text-align: left;
+     }
+     .book-now-button{
+        background: rgba(0, 0, 0, 0.247);
+    border-radius: 25px;
+    border: none;
+    color: white;
+    font-size: 25px;
+    width: 150px;
+    height: 35px;
+    margin-top: 12px;
+    box-sizing: border-box;
+border: 1px solid white;
+text-align: center; 
+     }
+     .book-now-button:hover{
+        background: white;
+        color: black;
+     }
+     /* Book now */
     /* Responsive media query for mobile */
 @media screen and (max-width:570px) {
     .bar{
@@ -503,6 +539,17 @@ th, td {
         }
         .Table-and-form-section-content{
             flex-direction: column;
+        }
+        .book-now{
+            flex-direction: column;
+            width: 100%;
+            padding: 35px;
+            height: 350px;
+        }
+        .book-now-text h1{
+            font-size: 2rem;
+            text-align: center;
+        
         }
     }
       /* Responsive media query for mobile */
