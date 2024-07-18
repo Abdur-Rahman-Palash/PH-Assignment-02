@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cherish&family=Dancing+Script:wght@400..700&display=swap');
 .inter-fonts {
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
@@ -33,6 +34,7 @@
     gap: 35px;
     justify-content: space-around;
     align-items: center;
+    margin: 0 auto;
    }
    .nav-options{
     display: flex;
@@ -72,18 +74,27 @@
     font-family: inter;
 }
 .btn{
-    background: rgb(230,83,60) ;
+    background:rgb(230,83,60) ;
+    border-radius: 25px;
     border: none;
-    font-size: 20px;
     color: white;
-    border-radius: 35px;
+    font-size: 12px;
+    width: 150px;
+    height: 35px;
+    margin-top: 12px;
+   
 }
 .btn1{
-    border: 1px solid rgba(255, 255, 255, 0.774);
-    border-radius: 35px;
+    background: rgba(0, 0, 0, 0.247);
+    border-radius: 25px;
+    border: none;
+    color: white;
+    font-size: 12px;
+    width: 150px;
+    height: 35px;
+    margin-top: 12px;
     box-sizing: border-box;
-     font-size: 20px;
-
+border: 1px solid white;
 }
 .position, .positions{
     color: white;
@@ -123,7 +134,11 @@
     width: 30%;
 }
 .cursive{
-    font-style: italic;
+    font-family: "Dancing Script", cursive;
+    font-size: 4rem;
+    color: white;
+    font-weight: 900;
+
 }
 
     /* Banner-section start here  */
@@ -225,7 +240,7 @@
     /* Extra mile section */
     .Extra-mile-section{
         width: 75%;
-        margin: 0 auto;
+        margin: 0 90px;
         margin-top: 70px;
         background: rgb(34,34,34);
         border-radius: 20px;
@@ -242,7 +257,9 @@ font-size: 2rem;
 font-size: 1rem; 
     }
     .Extra-mile-section-image{
-        width: 35%;
+        width: 50%;
+        height: 320px;
+        margin-top: 20px;
     }
     .Extra-mile-section-image img{
         width: 100%;
@@ -275,25 +292,22 @@ font-size: 1rem;
     }
     /* BMI Calculator */
     /* Table and form section */
-    .div1,.div2,.div3{
-        display: flex;
-        gap: 50px;
-    }
+  
 .Table-and-form-section-content{
     display: flex;
-    gap: 70px;
+    gap: 170px;
     justify-content: center;
-    align-items: center;
+ 
 }
 .Table-and-form-section-table h3{
     color: white;
-    font-size: 3rem;
+    font-size: 2rem;
     font-family: inter;
     text-align: center;
 }
 .Table-and-form-section-form-content h3{
     color: white;
-    font-size: 3rem;
+    font-size: 2rem;
     font-family: inter;
     text-align: center;
 }
@@ -306,14 +320,45 @@ font-size: 1rem;
 .Table-and-form-section{
     background: rgb(34,34,34);
 }
-.Table-and-form-section-table{
-   
+.table {
+    width: 100%;
+    border-collapse: collapse;
 }
-.div1{
-width: 280px;
-height: 45px;
-background: rgba(255, 255, 255, 0.1);
+
+thead {
+    border: 1px solid #000; 
 }
+
+tbody {
+    border: 1px solid #000; 
+}
+
+th, td {
+    padding: 5px;
+    border: 1px solid #ddd;
+}
+.table thead{
+    color: white;
+}
+.table tbody{
+    color: white;
+}
+.Table-and-form-section-form button{
+    width: 250px;
+    height: 40px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.365);
+}
+.calculate{
+   color: white;
+   background: rgb(230,83,60); 
+   width: 150px;
+   height: 30px;
+   border-radius: 8px;
+   text-align: center;
+}
+
+
     /* Table and form section */
      /* Meet Our Team  */
      .divv1{
@@ -360,16 +405,20 @@ background: rgba(255, 255, 255, 0.1);
      /* Meet Our Team  */
      /* footer */
      .footer{
-        margin-top: 55px;
+        margin-top: 85px;
         margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
      }
-     .fitness h4{
-        color: white;
-        font-size: 2rem;
-        font-family: inter;
-        text-align: center;
+     .footer h4{
+        color: rgb(230,83,60);
+    font-style: italic;
+    font-size: 3rem;
+    font-family: inter;
+    text-align: center;
      }
-     .fitness p{
+     .footer p{
         color: white;
     font-size: 1rem;
     font-family: inter;
@@ -400,21 +449,14 @@ background: rgba(255, 255, 255, 0.1);
         font-family: inter;
         text-align: center;
      }
+     
      .end{
         color: white;
-        font-size: 1rem;
+        font-size: 14px;
         font-family: inter;
         text-align: center;
      }
-     .double-div{
-        display: flex;
-    
-     }
-     .footer-content{
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-     }
+     
 
     /* Responsive media query for mobile */
 @media screen and (max-width:570px) {
@@ -454,6 +496,13 @@ background: rgba(255, 255, 255, 0.1);
         flex-direction: column;
        }
        .Extra-mile-section-image{
-        width: 100%;}
-}
+        width: 100%;
+    }
+        .footer{
+            flex-direction: column;
+        }
+        .Table-and-form-section-content{
+            flex-direction: column;
+        }
+    }
       /* Responsive media query for mobile */
