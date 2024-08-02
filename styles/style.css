@@ -279,46 +279,106 @@ font-size: 1rem;
         color: white;
         font-size: 2rem;
         font-family: Inter;
-        margin-left: 220px;
+        margin-left: 190px;
     }
     .training-exercise-text p{
         color: rgba(255, 255, 255, 0.5);
         font-size: 14px;
         font-family: Inter;
-        margin-left: 220px;
+        margin-left: 200px;
     }
-   .image-container-1{
-    text-align: center;
-    margin-top: 40px;
-   }
-   .image-container-1 .img1{
-    width: 200px;
-    height: 150px;
-   }
-   .image-container-1 .img11{
-    width: 200px;
-    height: 150px;
-   }
-   .image-container-1 .img2{
-    width: 400px;
-    height: 150px;
-   }
-   .image-container-2 .img3{
-    width: 315px;
-    height: 150px;
-   }
-   .image-container-2 .img4{
-    width: 200px;
-    height: 150px;
-   }
-   .image-container-2 .img5{
-    width: 285px;
-    height: 150px;
-   }
-
-   .image-container-2{
-    text-align: center;
-   }
+    .image-1{
+    background-image:linear-gradient(rgba(6,255,210,0.5), rgba(6,255,210,0.5)), url(../images/exercise1.jpg);
+    background-position: center;
+    background-size: cover;
+    object-fit: cover;
+    width: 190px;
+    height: 180px;
+    }
+    .image-2{
+        background-image:linear-gradient(rgba(255,0,0,0.3), rgba(255,0,0,0.5)), url(../images/exercise2.png);
+        background-position: center;
+        background-size: cover;
+        object-fit: cover;
+        width: 450px;
+        height: 180px;
+        }
+        .image-3{
+            background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../images/exercise3.png);
+            background-position: center;
+            background-size: cover;
+            object-fit: cover;
+            width: 210px;
+            height: 180px;
+            }
+            .image-4{
+                background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../images/exercise4.png);
+                background-position: center;
+                background-size: cover;
+                object-fit: cover;
+                width: 380px;
+                height: 180px;
+                }
+                .image-5{
+                    background-image:linear-gradient(rgba(66,255,0,0.3), rgba(66,255,0,0.3)), url(../images/exercise5.jpg);
+                    background-position: center;
+                    background-size: cover;
+                    object-fit: cover;
+                    width: 190px;
+                    height: 180px;
+                    }
+                    .image-6{
+                        background-image:linear-gradient(rgba(0,71,255,0.3), rgba(0,71,255,0.3)), url(../images/exercise6.jpg);
+                        background-position: center;
+                        background-size: cover;
+                        object-fit: cover;
+                        width: 280px;
+                        height: 180px;
+                        }
+                        .image-container-1{
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                        }
+                        .image-container-2{
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                        }
+                        .image-1 p{
+                            margin-top: 140px;
+                            font-size: 13px;
+                            padding: 8px;
+                        }
+                        .image-2 p{
+                            font-size: 13px;
+                            padding: 18px;
+                            color: white;
+                        }
+                        .image-3 p{
+                            margin-top: 140px;
+                            font-size: 13px;
+                            padding: 8px;
+                            color: white;
+                        }
+                        .image-4 p{
+                            margin-left: 280px;
+                            font-size: 13px;
+                            padding: 8px;
+                            color: white;
+                        }
+                        .image-5 p{
+                            margin-top: 140px;
+                            font-size: 13px;
+                            padding: 8px;
+                            color: white;
+                        }
+                        .image-6 p{
+                            margin-top: 140px;
+                            font-size: 13px;
+                            padding: 8px;
+                            color: white;
+                        }
     /* Trainings and Exercises */
     /* BMI Calculator */
     .BMI-Calculator{
