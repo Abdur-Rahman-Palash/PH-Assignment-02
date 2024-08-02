@@ -274,6 +274,52 @@ font-size: 1rem;
         gap: 55px;
     }
     /* Extra mile section */
+    /* Trainings and Exercises */
+    .training-exercise-text h3{
+        color: white;
+        font-size: 2rem;
+        font-family: Inter;
+        margin-left: 220px;
+    }
+    .training-exercise-text p{
+        color: rgba(255, 255, 255, 0.5);
+        font-size: 14px;
+        font-family: Inter;
+        margin-left: 220px;
+    }
+   .image-container-1{
+    text-align: center;
+    margin-top: 40px;
+   }
+   .image-container-1 .img1{
+    width: 200px;
+    height: 150px;
+   }
+   .image-container-1 .img11{
+    width: 200px;
+    height: 150px;
+   }
+   .image-container-1 .img2{
+    width: 400px;
+    height: 150px;
+   }
+   .image-container-2 .img3{
+    width: 315px;
+    height: 150px;
+   }
+   .image-container-2 .img4{
+    width: 200px;
+    height: 150px;
+   }
+   .image-container-2 .img5{
+    width: 285px;
+    height: 150px;
+   }
+
+   .image-container-2{
+    text-align: center;
+   }
+    /* Trainings and Exercises */
     /* BMI Calculator */
     .BMI-Calculator{
         margin: 0 auto;
