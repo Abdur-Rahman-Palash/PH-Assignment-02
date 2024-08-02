@@ -657,5 +657,37 @@ text-align: center;
             text-align: center;
         
         }
+        .image-container-1{
+            flex-direction: column;
+        }
+        .image-container-2{
+            flex-direction: column;
+        }
+        .image-1 p{
+            text-align: center;
+        }
+        .image-2 p{
+            text-align: center;
+        }
+        .image-3 p{
+            text-align: center;
+        }
+        .image-4 p{
+            text-align: center;
+        }
+        .image-5 p{
+            text-align: center;
+        }
+        .image-6 p{
+            text-align: center;
+        }
+        .training-exercise-text h3{
+            text-align: center;
+            margin-left: 0px; 
+        }
+        .training-exercise-text p{
+            margin-left: 0px;  
+            text-align: center;
+        }
     }
       /* Responsive media query for mobile */
