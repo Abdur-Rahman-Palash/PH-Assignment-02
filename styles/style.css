@@ -465,6 +465,9 @@ th, td {
    text-align: center;
    font-size: 1.5rem;
 }
+select{
+    background: #737373;
+}
 
 
     /* Table and form section */
